@@ -6,8 +6,6 @@
 		<members>AgentsController_Test</members>
 		<members>ApartmentsData</members>
 		<members>AptProp_Test</members>
-		<members>ChangePasswordController</members>
-		<members>ChangePasswordControllerTest</members>
 		<members>CommunitiesLandingController</members>
 		<members>CommunitiesLandingControllerTest</members>
 		<members>CommunitiesLoginController</members>
@@ -17,37 +15,22 @@
 		<members>CommunitiesSelfRegController</members>
 		<members>CommunitiesSelfRegControllerTest</members>
 		<members>Controllers_Test</members>
-		<members>EmailMsg</members>
 		<members>ForgotPasswordController</members>
 		<members>ForgotPasswordControllerTest</members>
 		<members>HireMeEXT</members>
 		<members>HireMeEXT_Test</members>
 		<members>HireMe_CC</members>
 		<members>HireMe_Test</members>
-		<members>LightningForgotPasswordController</members>
-		<members>LightningForgotPasswordControllerTest</members>
-		<members>LightningLoginFormController</members>
-		<members>LightningLoginFormControllerTest</members>
-		<members>LightningSelfRegisterController</members>
-		<members>LightningSelfRegisterControllerTest</members>
 		<members>MultipleUnitsCreation</members>
-		<members>MyProfilePageController</members>
-		<members>MyProfilePageControllerTest</members>
 		<members>NewApartmentAndUnits</members>
 		<members>NewPropertyPage</members>
 		<members>PropertyListPrice</members>
 		<members>SearchProperties_CC</members>
 		<members>SeeContactsList</members>
-		<members>SiteLoginController</members>
-		<members>SiteLoginControllerTest</members>
-		<members>SiteRegisterController</members>
-		<members>SiteRegisterControllerTest</members>
 		<members>TestApartmentDeletion</members>
-		<members>TestCustAddDel</members>
 		<members>Test_AptProperties</members>
 		<members>Triggers_Demo</members>
 		<members>addAPropertyController</members>
-		<members>contactEmailDup</members>
 		<members>multiAccountInsert</members>
 		<members>myController</members>
 		<members>reRoutetoContactList</members>
@@ -55,25 +38,9 @@
 	</types>
 	<types>
 		<members>AboutUsPage</members>
-		<members>AnswersHome</members>
 		<members>ApartmentDetails</members>
-		<members>BandwidthExceeded</members>
-		<members>ChangePassword</members>
-		<members>CommunitiesLanding</members>
-		<members>CommunitiesLogin</members>
-		<members>CommunitiesSelfReg</members>
-		<members>CommunitiesSelfRegConfirm</members>
-		<members>CommunitiesTemplate</members>
-		<members>Exception</members>
-		<members>FileNotFound</members>
-		<members>ForgotPassword</members>
-		<members>ForgotPasswordConfirm</members>
 		<members>HireMePage</members>
-		<members>IdeasHome</members>
-		<members>InMaintenance</members>
 		<members>ListOfAgentsPage</members>
-		<members>MultiAccountInsert</members>
-		<members>MyProfilePage</members>
 		<members>NewApartment</members>
 		<members>NewClientPage</members>
 		<members>NewProperties</members>
@@ -82,23 +49,13 @@
 		<members>PropertyListPrice</members>
 		<members>SearchAvailableProperties</members>
 		<members>SelectedAgentsPage</members>
-		<members>SiteLogin</members>
-		<members>SiteRegister</members>
-		<members>SiteRegisterConfirm</members>
-		<members>SiteTemplate</members>
-		<members>StdExceptionTemplate</members>
-		<members>Unauthorized</members>
-		<members>UnderConstruction</members>
 		<members>addAPropertyPage</members>
-		<members>contactListPage</members>
-		<members>teste</members>
 		<name>ApexPage</name>
 	</types>
 	<types>
 		<members>ApartmentDeletion</members>
 		<members>PropertyStageSold</members>
 		<members>PropertyStageUpdate</members>
-		<members>contactP</members>
 		<name>ApexTrigger</name>
 	</types>
 	<types>
@@ -130,6 +87,7 @@
 		<members>Client__c.Property_Interested_In__c</members>
 		<members>Contact.City__c</members>
 		<members>Contact.State__c</members>
+		<members>Customers__c.Property_Interested_In__c</members>
 		<members>Property__c.Apartment_Name__c</members>
 		<members>Property__c.Approval_Status__c</members>
 		<members>Property__c.Area_in_SqFt__c</members>
@@ -155,52 +113,58 @@
 	</types>
 	<types>
 		<members>Apartment__c</members>
-		<members>Candidate__c</members>
 		<members>Client__c</members>
 		<members>Contact</members>
-		<members>EmailMessage</members>
+		<members>Customers__c</members>
 		<members>Property__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>Seven_Stones</members>
 		<name>CustomSite</name>
 	</types>
 	<types>
 		<members>Apartment__c</members>
 		<members>Client__c</members>
+		<members>Customers__c</members>
 		<members>Property__c</members>
 		<name>CustomTab</name>
 	</types>
 	<types>
-		<members>Workflow_Email_Templates/Property_Sold</members>
+		<members>SSDashboards/jIgWgPbwCeqIqYLkUcXtWZMxfYPyLv</members>
+		<name>Dashboard</name>
+	</types>
+	<types>
 		<members>unfiled$public/Email_alert_when_new_Apt_is_created</members>
 		<members>unfiled$public/Property_Discount</members>
 		<name>EmailTemplate</name>
 	</types>
 	<types>
-		<members>*</members>
+		<members>Seven_Stones1</members>
 		<name>ExperienceBundle</name>
+	</types>
+	<types>
+		<members>Property_Record_Page</members>
+		<members>Seven_Stones_Construction_Company_UtilityBar</members>
+		<name>FlexiPage</name>
 	</types>
 	<types>
 		<members>Apt_Address_to_Property_Address</members>
 		<members>Create_Property</members>
+		<members>New_Customer_Creation</members>
 		<members>New_Property_Creation_along_with_Apartment</members>
 		<name>Flow</name>
 	</types>
 	<types>
-		<members>Apt_Address_to_Property_Address</members>
 		<members>Create_Property</members>
+		<members>New_Customer_Creation</members>
 		<members>New_Property_Creation_along_with_Apartment</members>
 		<name>FlowDefinition</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>HomePageLayout</name>
-	</types>
-	<types>
 		<members>Apartment__c-Apartment Layout</members>
 		<members>Client__c-Client Layout</members>
+		<members>Customers__c-Customer Layout</members>
 		<members>Property__c-Property Layout</members>
 		<members>Property__c-Property Layout for SS Users</members>
 		<name>Layout</name>
@@ -208,6 +172,7 @@
 	<types>
 		<members>Apartment__c.All</members>
 		<members>Client__c.All</members>
+		<members>Customers__c.All</members>
 		<members>Property__c.All</members>
 		<members>Property__c.Available_Apts_for_Sale</members>
 		<members>Property__c.Sold_Properties</members>
@@ -220,13 +185,11 @@
 	</types>
 	<types>
 		<members>SS Users</members>
-		<members>Seven Stones Profile</members>
-		<members>sevenstones Profile</members>
 		<name>Profile</name>
 	</types>
 	<types>
 		<members>Apartment__c.New_Property</members>
-		<members>Candidate__c.New_Job_App</members>
+		<members>FeedItem.NewTaskFromFeedItem</members>
 		<members>New_Apartment</members>
 		<members>New_Candidate</members>
 		<name>QuickAction</name>
@@ -269,6 +232,7 @@
 		<members>Apartment__c</members>
 		<members>Client__c</members>
 		<members>Contact</members>
+		<members>Customers__c</members>
 		<name>SharingRules</name>
 	</types>
 	<types>
@@ -278,6 +242,7 @@
 	<types>
 		<members>Apartment__c</members>
 		<members>Client__c</members>
+		<members>Customers__c</members>
 		<members>Property__c</members>
 		<name>TopicsForObjects</name>
 	</types>
