@@ -22,8 +22,8 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <requireHttps>true</requireHttps>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>admin@dex403.56945.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>admin@dex403.56945.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>moonshine.machiavelli@mindful-badger-vem16u.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>moonshine.machiavelli@mindful-badger-vem16u.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>revrealestate</subdomain>
     <urlPathPrefix>SevenStones</urlPathPrefix>

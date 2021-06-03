@@ -10,7 +10,6 @@
         <field>Apartment_Name__c</field>
         <field>Discount_Percentage__c</field>
         <field>Customer_Price__c</field>
-        <field>00N5e000000agDf</field>
         <field>Property_ID__c</field>
     </approvalPageFields>
     <approvalStep>

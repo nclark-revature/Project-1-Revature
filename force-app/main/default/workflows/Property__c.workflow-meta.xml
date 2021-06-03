@@ -5,22 +5,11 @@
         <description>Property Discount Approval Info</description>
         <protected>false</protected>
         <recipients>
-            <recipient>rithwikg@gmail.com</recipient>
+            <recipient>moonshine.machiavelli@mindful-badger-vem16u.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Property_Discount</template>
-    </alerts>
-    <alerts>
-        <fullName>Property_sold_confirmation</fullName>
-        <description>Property sold confirmation</description>
-        <protected>false</protected>
-        <recipients>
-            <recipient>rithwikg@gmail.com</recipient>
-            <type>user</type>
-        </recipients>
-        <senderType>CurrentUser</senderType>
-        <template>Workflow_Email_Templates/Property_Sold</template>
     </alerts>
     <fieldUpdates>
         <fullName>Approval_Status_to_Approved</fullName>
@@ -81,19 +70,4 @@
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
-    <rules>
-        <fullName>Property Sold</fullName>
-        <actions>
-            <name>Property_sold_confirmation</name>
-            <type>Alert</type>
-        </actions>
-        <active>true</active>
-        <criteriaItems>
-            <field>Property__c.Status__c</field>
-            <operation>equals</operation>
-            <value>Sold</value>
-        </criteriaItems>
-        <description>When the property status is changed to Sold, send an email to builder.</description>
-        <triggerType>onAllChanges</triggerType>
-    </rules>
 </Workflow>

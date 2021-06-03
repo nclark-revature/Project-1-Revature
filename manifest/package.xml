@@ -15,6 +15,7 @@
 		<members>CommunitiesSelfRegController</members>
 		<members>CommunitiesSelfRegControllerTest</members>
 		<members>Controllers_Test</members>
+		<members>EmailMsg</members>
 		<members>ForgotPasswordController</members>
 		<members>ForgotPasswordControllerTest</members>
 		<members>HireMeEXT</members>
@@ -61,6 +62,16 @@
 	<types>
 		<members>Property__c.Property_Discount_Approval</members>
 		<name>ApprovalProcess</name>
+	</types>
+	<types>
+		<members>Seven_Stones</members>
+		<members>Seven_Stones1</members>
+		<members>Seven_Stones_Logo</members>
+		<members>bradswitzerSHDCQ1l2WD0unsplash</members>
+		<members>mathieuturleqo0GIeUrE0sunsplash</members>
+		<members>seanstrattonObpCE_X3j6Uunsplash</members>
+		<members>sudarshanbhatchrrtMqrrhAunsplash</members>
+		<name>ContentAsset</name>
 	</types>
 	<types>
 		<members>Seven_Stones_Construction_Company</members>
@@ -137,6 +148,8 @@
 	<types>
 		<members>unfiled$public/Email_alert_when_new_Apt_is_created</members>
 		<members>unfiled$public/Property_Discount</members>
+		<members>Workflow_Email_Templates</members>
+		<members>Workflow_Email_Templates/PropertySold</members>
 		<name>EmailTemplate</name>
 	</types>
 	<types>
@@ -144,6 +157,7 @@
 		<name>ExperienceBundle</name>
 	</types>
 	<types>
+		<members>Customer_Record_Page</members>
 		<members>Property_Record_Page</members>
 		<members>Seven_Stones_Construction_Company_UtilityBar</members>
 		<name>FlexiPage</name>
@@ -156,12 +170,6 @@
 		<name>Flow</name>
 	</types>
 	<types>
-		<members>Create_Property</members>
-		<members>New_Customer_Creation</members>
-		<members>New_Property_Creation_along_with_Apartment</members>
-		<name>FlowDefinition</name>
-	</types>
-	<types>
 		<members>Apartment__c-Apartment Layout</members>
 		<members>Client__c-Client Layout</members>
 		<members>Customers__c-Customer Layout</members>
@@ -170,13 +178,17 @@
 		<name>Layout</name>
 	</types>
 	<types>
-		<members>Apartment__c.All</members>
-		<members>Client__c.All</members>
-		<members>Customers__c.All</members>
-		<members>Property__c.All</members>
 		<members>Property__c.Available_Apts_for_Sale</members>
 		<members>Property__c.Sold_Properties</members>
 		<name>ListView</name>
+	</types>
+	<types>
+		<members>Default_User_Profile_Menu</members>
+		<name>NavigationMenu</name>
+	</types>
+	<types>
+		<members>Seven Stones</members>
+		<name>Network</name>
 	</types>
 	<types>
 		<members>SS_Create_Apartments</members>
@@ -184,23 +196,24 @@
 		<name>PermissionSet</name>
 	</types>
 	<types>
+		<members>Admin</members>
 		<members>SS Users</members>
 		<name>Profile</name>
 	</types>
 	<types>
 		<members>Apartment__c.New_Property</members>
+		<members>FeedItem.ContentNote</members>
 		<members>FeedItem.NewTaskFromFeedItem</members>
 		<members>New_Apartment</members>
-		<members>New_Candidate</members>
 		<name>QuickAction</name>
 	</types>
 	<types>
-		<members>Contact.Standard</members>
 		<members>Property__c.Apartment_Units</members>
 		<members>Property__c.Single_Family_Houses</members>
 		<name>RecordType</name>
 	</types>
 	<types>
+		<members>HousingReports</members>
 		<members>HousingReports/Apartments_with_Properties_Report_7ab</members>
 		<members>HousingReports/Available_Vs_Sold_units_oaX</members>
 		<name>Report</name>
@@ -214,26 +227,6 @@
 		<members>SS_Customers</members>
 		<members>SS_Sales</members>
 		<name>Role</name>
-	</types>
-	<types>
-		<members>Flow</members>
-		<members>Picklist</members>
-		<name>Settings</name>
-	</types>
-	<types>
-		<members>Position__c.All_View_New_and_Open_Positions</members>
-		<name>SharingCriteriaRule</name>
-	</types>
-	<types>
-		<members>Apartment__c.SS_Property_Sharing</members>
-		<name>SharingOwnerRule</name>
-	</types>
-	<types>
-		<members>Apartment__c</members>
-		<members>Client__c</members>
-		<members>Contact</members>
-		<members>Customers__c</members>
-		<name>SharingRules</name>
 	</types>
 	<types>
 		<members>projectOneCSS</members>
@@ -250,9 +243,6 @@
 		<members>Seven Stones.Customer_Members</members>
 		<members>Seven Stones.Members_without_contribution</members>
 		<members>Seven Stones.Partner_and_Customer_members</members>
-		<members>sevenstones.Customer_Members</members>
-		<members>sevenstones.Members_without_contribution</members>
-		<members>sevenstones.Partner_and_Customer_members</members>
 		<name>UserCriteria</name>
 	</types>
 	<types>
@@ -264,6 +254,7 @@
 	</types>
 	<types>
 		<members>Apartment__c</members>
+		<members>Customers__c</members>
 		<members>Property__c</members>
 		<name>Workflow</name>
 	</types>

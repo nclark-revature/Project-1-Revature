@@ -43,6 +43,7 @@
     <tabs>Property__c</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>Client__c</tabs>
+    <tabs>Customers__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Seven_Stones_Construction_Company_UtilityBar</utilityBar>
 </CustomApplication>

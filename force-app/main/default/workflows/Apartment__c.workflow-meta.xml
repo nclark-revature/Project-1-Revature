@@ -5,7 +5,7 @@
         <description>New Apartment Creation Alert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>tomben1@gmail.com</recipient>
+            <recipient>moonshine.machiavelli@mindful-badger-vem16u.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
